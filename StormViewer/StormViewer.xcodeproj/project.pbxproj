@@ -83,6 +83,15 @@
 			path = content;
 			sourceTree = "<group>";
 		};
+		0C2233D829F34B240049C118 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0C2233D629F32C050049C118 /* DetailViewController.swift */,
+				0CAD3E6129EC7A2600D51594 /* HomeViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		0CAD3E5129EC7A2600D51594 = {
 			isa = PBXGroup;
 			children = (
@@ -102,14 +111,13 @@
 		0CAD3E5C29EC7A2600D51594 /* StormViewer */ = {
 			isa = PBXGroup;
 			children = (
+				0C2233BB29F1EA7D0049C118 /* content */,
+				0C2233D829F34B240049C118 /* Screens */,
 				0CAD3E5D29EC7A2600D51594 /* AppDelegate.swift */,
 				0CAD3E5F29EC7A2600D51594 /* SceneDelegate.swift */,
-				0CAD3E6129EC7A2600D51594 /* HomeViewController.swift */,
-				0C2233D629F32C050049C118 /* DetailViewController.swift */,
 				0CAD3E6629EC7A2700D51594 /* Assets.xcassets */,
 				0CAD3E6829EC7A2700D51594 /* LaunchScreen.storyboard */,
 				0CAD3E6B29EC7A2700D51594 /* Info.plist */,
-				0C2233BB29F1EA7D0049C118 /* content */,
 			);
 			path = StormViewer;
 			sourceTree = "<group>";
